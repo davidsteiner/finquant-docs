@@ -1,0 +1,41 @@
+site_name: FinQuant
+site_description: >-
+  Open-source Rust library for quantitative financial market modelling.
+repo_name: finquant
+repo_url: https://github.com/quantransform/finquant
+
+theme:
+  name: material
+  custom_dir: docs/overrides
+  features:
+    - navigation.sections
+    - navigation.tabs
+  icon:
+    admonition:
+      note: octicons/tag-16
+      abstract: octicons/checklist-16
+      info: octicons/info-16
+      tip: octicons/squirrel-16
+      success: octicons/check-16
+      question: octicons/question-16
+      warning: octicons/alert-16
+      failure: octicons/x-circle-16
+      danger: octicons/zap-16
+      bug: octicons/bug-16
+      example: octicons/beaker-16
+      quote: octicons/quote-16
+
+extra:
+  generator: false
+
+nav:
+  - Getting Started:
+    - getting-started/index.md
+  - The Essentials:
+    - essentials/index.md
+  - Forex:
+    - fx/index.md
+  - Interest Rate:
+    - ir/index.md
+extra_css:
+  - stylesheets/extra.css
