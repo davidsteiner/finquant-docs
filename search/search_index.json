@@ -1,0 +1,1 @@
+{"config":{"lang":["en"],"separator":"[\\s\\-]+","pipeline":["stopWordFilter"]},"docs":[{"location":"essentials/","title":"Essential Building Blocks","text":""},{"location":"fx/","title":"Forex Markets","text":""},{"location":"getting-started/","title":"Getting Started with FinQuant","text":""},{"location":"ir/","title":"Interest Rate Markets","text":""}]}
